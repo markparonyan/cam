@@ -89,6 +89,7 @@ install_package shellcheck
 install_package aspell
 install_package xmlstarlet
 install_package gawk
+install_package latexmk
 
 if "${LOCAL}/help/is-macos.sh"; then
   "${LOCAL}/help/sudo.sh" --as-user brew install coreutils
